@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World</title>
+        <link rel="stylesheet" href>
+    </head>
+    <body>
+        <img src>
+        <br>
+        {% for message in get_flashed_messages() %}
+        <p>{{ message }}</p>
+        {% endfor %}
+        <form action="welcome" method="post">
+            <br>
+            <input type="text" name="name">
+            <br>
+            <input type="submit" value="Send" id="submit">
+        </form>
+    </body>
+</html>

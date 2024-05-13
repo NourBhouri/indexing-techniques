@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to my website</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to my website</h1>
+            <p>You might be a little afraid, but I would be honored if you sign
+                up.</p>
+            <p>Then login to see the wonders.</p>
+            <ul>
+                <li><a href="{{ url_for('register')}}">Register</a></li>
+                <li><a href="{{ url_for('login')}}">Login</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
